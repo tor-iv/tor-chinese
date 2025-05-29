@@ -16,6 +16,77 @@ export function getMonthlyCharacterFilename(year: number, month: number): string
 }
 
 /**
+ * Generate the filename for a weekly character file
+ */
+export function getWeeklyCharacterFilename(year: number, month: number, week: number): string {
+  const monthStr = month.toString().padStart(2, "0")
+  return `${year}-${monthStr}/characters-week-${week}.json`
+}
+
+/**
+ * Load characters from weekly files for a specific month
+ */
+export async function loadMonthlyCharactersFromWeeklyFiles(year: number, month: number): Promise<Character[]> {
+  const cacheKey = `${year}-${month.toString().padStart(2, "0")}-weekly`
+  
+  // Check cache first
+  if (monthlyCharacterCache.has(cacheKey)) {
+    return monthlyCharacterCache.get(cacheKey)!
+  }
+
+  const allCharacters: Character[] = []
+  const errors: string[] = []
+
+  // Try to load from 4 weekly files
+  for (let week = 1; week <= 4; week++) {
+    try {
+      const filename = getWeeklyCharacterFilename(year, month, week)
+      const filePath = `/character_info/${filename}`
+      
+      const response = await fetch(filePath)
+      
+      if (!response.ok) {
+        errors.push(`Week ${week}: ${response.status} ${response.statusText}`)
+        continue
+      }
+
+      const weeklyCharacters: Character[] = await response.json()
+      
+      // Validate the loaded data
+      if (!Array.isArray(weeklyCharacters)) {
+        errors.push(`Week ${week}: Invalid data format - expected array of characters`)
+        continue
+      }
+
+      // Basic validation of character structure
+      for (const char of weeklyCharacters) {
+        if (!char.id || !char.character || !char.pinyin || !char.english) {
+          errors.push(`Week ${week}: Invalid character data - missing required fields`)
+          continue
+        }
+      }
+
+      allCharacters.push(...weeklyCharacters)
+    } catch (error) {
+      errors.push(`Week ${week}: ${error instanceof Error ? error.message : String(error)}`)
+    }
+  }
+
+  if (allCharacters.length === 0) {
+    throw new Error(`No characters could be loaded from weekly files for ${year}-${month}. Errors: ${errors.join('; ')}`)
+  }
+
+  if (errors.length > 0) {
+    console.warn(`Some weekly files could not be loaded for ${year}-${month}:`, errors)
+  }
+
+  // Cache the combined characters
+  monthlyCharacterCache.set(cacheKey, allCharacters)
+  
+  return allCharacters
+}
+
+/**
  * Load characters from a JSON file for a specific month
  */
 export async function loadMonthlyCharactersFromFile(year: number, month: number): Promise<Character[]> {
@@ -65,11 +136,17 @@ export async function loadMonthlyCharactersFromFile(year: number, month: number)
  * This version is for use in client components where we can't use async/await
  */
 export function loadMonthlyCharactersSync(year: number, month: number): Character[] | null {
-  const cacheKey = `${year}-${month.toString().padStart(2, "0")}`
+  const weeklyCacheKey = `${year}-${month.toString().padStart(2, "0")}-weekly`
+  const monthlyCacheKey = `${year}-${month.toString().padStart(2, "0")}`
   
-  // Return from cache if available
-  if (monthlyCharacterCache.has(cacheKey)) {
-    return monthlyCharacterCache.get(cacheKey)!
+  // Check weekly cache first
+  if (monthlyCharacterCache.has(weeklyCacheKey)) {
+    return monthlyCharacterCache.get(weeklyCacheKey)!
+  }
+  
+  // Then check monthly cache
+  if (monthlyCharacterCache.has(monthlyCacheKey)) {
+    return monthlyCharacterCache.get(monthlyCacheKey)!
   }
 
   // For client-side, we'll need to handle this differently
@@ -83,9 +160,15 @@ export function loadMonthlyCharactersSync(year: number, month: number): Characte
  */
 export async function preloadMonthlyCharacters(year: number, month: number): Promise<void> {
   try {
-    await loadMonthlyCharactersFromFile(year, month)
-  } catch (error) {
-    console.warn(`Could not preload characters for ${year}-${month}:`, error)
+    // Try weekly files first
+    await loadMonthlyCharactersFromWeeklyFiles(year, month)
+  } catch (weeklyError) {
+    try {
+      // Fall back to monthly file
+      await loadMonthlyCharactersFromFile(year, month)
+    } catch (monthlyError) {
+      console.warn(`Could not preload characters for ${year}-${month}:`, monthlyError)
+    }
   }
 }
 
@@ -93,8 +176,9 @@ export async function preloadMonthlyCharacters(year: number, month: number): Pro
  * Check if characters for a specific month are available in cache
  */
 export function areMonthlyCharactersCached(year: number, month: number): boolean {
-  const cacheKey = `${year}-${month.toString().padStart(2, "0")}`
-  return monthlyCharacterCache.has(cacheKey)
+  const weeklyCacheKey = `${year}-${month.toString().padStart(2, "0")}-weekly`
+  const monthlyCacheKey = `${year}-${month.toString().padStart(2, "0")}`
+  return monthlyCharacterCache.has(weeklyCacheKey) || monthlyCharacterCache.has(monthlyCacheKey)
 }
 
 /**

@@ -1,0 +1,245 @@
+[
+  {
+    "id": "27",
+    "character": "吃",
+    "pinyin": "chī",
+    "english": "to eat",
+    "level": "HSK 1",
+    "strokes": 6,
+    "radicals": [
+      {
+        "symbol": "口",
+        "name": "Mouth",
+        "meaning": "mouth, opening",
+        "pinyin": "kǒu",
+        "color": "#f97316",
+        "position": { "top": 50, "left": 25 },
+        "positionName": "left"
+      }
+    ],
+    "radicalExplanation": "The character 吃 (chī) contains the mouth radical (口) on the left, indicating its relationship with eating and oral activities.",
+    "etymology": "The character combines the mouth radical with components representing the action of consuming food. It specifically refers to the act of eating.",
+    "examples": [
+      {
+        "chinese": "我想吃饭。",
+        "pinyin": "Wǒ xiǎng chī fàn.",
+        "english": "I want to eat.",
+        "note": "吃 used with 饭 (rice/meal) to mean 'to eat a meal'."
+      },
+      {
+        "chinese": "吃苹果很健康。",
+        "pinyin": "Chī píngguǒ hěn jiànkāng.",
+        "english": "Eating apples is healthy.",
+        "note": "吃 used as a verb with 苹果 (apple) as the object."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "喝",
+        "pinyin": "hē",
+        "english": "to drink"
+      },
+      {
+        "character": "饭",
+        "pinyin": "fàn",
+        "english": "rice, meal"
+      },
+      {
+        "character": "菜",
+        "pinyin": "cài",
+        "english": "dish, vegetable"
+      },
+      {
+        "character": "饿",
+        "pinyin": "è",
+        "english": "hungry"
+      }
+    ],
+    "mnemonic": "The character has the mouth radical on the left, showing it's related to eating and the mouth.",
+    "radicalMnemonic": "The mouth radical (口) on the left indicates this action involves the mouth - eating!",
+    "commonWords": [
+      {
+        "chinese": "吃饭",
+        "pinyin": "chīfàn",
+        "english": "to eat a meal"
+      },
+      {
+        "chinese": "吃药",
+        "pinyin": "chīyào",
+        "english": "to take medicine"
+      },
+      {
+        "chinese": "好吃",
+        "pinyin": "hǎochī",
+        "english": "delicious"
+      },
+      {
+        "chinese": "吃惊",
+        "pinyin": "chījīng",
+        "english": "surprised"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "character": "喝",
+    "pinyin": "hē",
+    "english": "to drink",
+    "level": "HSK 1",
+    "strokes": 12,
+    "radicals": [
+      {
+        "symbol": "口",
+        "name": "Mouth",
+        "meaning": "mouth, opening",
+        "pinyin": "kǒu",
+        "color": "#f97316",
+        "position": { "top": 50, "left": 25 },
+        "positionName": "left"
+      }
+    ],
+    "radicalExplanation": "The character 喝 (hē) contains the mouth radical (口) on the left, indicating its relationship with drinking and oral consumption.",
+    "etymology": "The character combines the mouth radical with components representing the action of consuming liquids. It specifically refers to the act of drinking.",
+    "examples": [
+      {
+        "chinese": "我喝水。",
+        "pinyin": "Wǒ hē shuǐ.",
+        "english": "I drink water.",
+        "note": "喝 used with 水 (water) as the object."
+      },
+      {
+        "chinese": "喝茶很好。",
+        "pinyin": "Hē chá hěn hǎo.",
+        "english": "Drinking tea is good.",
+        "note": "喝 used as a verb with 茶 (tea) as the object."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "吃",
+        "pinyin": "chī",
+        "english": "to eat"
+      },
+      {
+        "character": "水",
+        "pinyin": "shuǐ",
+        "english": "water"
+      },
+      {
+        "character": "茶",
+        "pinyin": "chá",
+        "english": "tea"
+      },
+      {
+        "character": "渴",
+        "pinyin": "kě",
+        "english": "thirsty"
+      }
+    ],
+    "mnemonic": "The character has the mouth radical on the left, showing it's related to drinking and the mouth.",
+    "radicalMnemonic": "The mouth radical (口) on the left indicates this action involves the mouth - drinking!",
+    "commonWords": [
+      {
+        "chinese": "喝水",
+        "pinyin": "hēshuǐ",
+        "english": "to drink water"
+      },
+      {
+        "chinese": "喝茶",
+        "pinyin": "hēchá",
+        "english": "to drink tea"
+      },
+      {
+        "chinese": "喝酒",
+        "pinyin": "hējiǔ",
+        "english": "to drink alcohol"
+      },
+      {
+        "chinese": "喝咖啡",
+        "pinyin": "hē kāfēi",
+        "english": "to drink coffee"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "character": "睡",
+    "pinyin": "shuì",
+    "english": "to sleep",
+    "level": "HSK 1",
+    "strokes": 13,
+    "radicals": [
+      {
+        "symbol": "目",
+        "name": "Eye",
+        "meaning": "eye",
+        "pinyin": "mù",
+        "color": "#0ea5e9",
+        "position": { "top": 50, "left": 25 },
+        "positionName": "left"
+      }
+    ],
+    "radicalExplanation": "The character 睡 (shuì) contains the eye radical (目) on the left, indicating its relationship with the eyes and vision, specifically the closing of eyes during sleep.",
+    "etymology": "The character combines the eye radical with components representing rest or lying down. It refers to the state of sleep when eyes are closed.",
+    "examples": [
+      {
+        "chinese": "我要睡觉。",
+        "pinyin": "Wǒ yào shuìjiào.",
+        "english": "I want to sleep.",
+        "note": "睡 used in the word 睡觉 (to sleep)."
+      },
+      {
+        "chinese": "他睡得很好。",
+        "pinyin": "Tā shuì de hěn hǎo.",
+        "english": "He sleeps well.",
+        "note": "睡 used as a verb describing the quality of sleep."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "觉",
+        "pinyin": "jiào",
+        "english": "sleep"
+      },
+      {
+        "character": "床",
+        "pinyin": "chuáng",
+        "english": "bed"
+      },
+      {
+        "character": "梦",
+        "pinyin": "mèng",
+        "english": "dream"
+      },
+      {
+        "character": "累",
+        "pinyin": "lèi",
+        "english": "tired"
+      }
+    ],
+    "mnemonic": "The character has the eye radical on the left, showing it's related to closing your eyes to sleep.",
+    "radicalMnemonic": "The eye radical (目) on the left indicates this involves the eyes - closing them to sleep!",
+    "commonWords": [
+      {
+        "chinese": "睡觉",
+        "pinyin": "shuìjiào",
+        "english": "to sleep"
+      },
+      {
+        "chinese": "睡眠",
+        "pinyin": "shuìmián",
+        "english": "sleep"
+      },
+      {
+        "chinese": "午睡",
+        "pinyin": "wǔshuì",
+        "english": "nap"
+      },
+      {
+        "chinese": "睡着",
+        "pinyin": "shuìzháo",
+        "english": "to fall asleep"
+      }
+    ]
+  }
+]

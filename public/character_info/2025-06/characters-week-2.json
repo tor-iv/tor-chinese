@@ -1,0 +1,326 @@
+[
+  {
+    "id": "19",
+    "character": "草",
+    "pinyin": "cǎo",
+    "english": "grass",
+    "level": "HSK 2",
+    "strokes": 9,
+    "radicals": [
+      {
+        "symbol": "艹",
+        "name": "Grass",
+        "meaning": "grass, plant",
+        "pinyin": "cǎo",
+        "color": "#65a30d",
+        "position": { "top": 25, "left": 50 },
+        "positionName": "top"
+      }
+    ],
+    "radicalExplanation": "The character 草 (cǎo) contains the grass radical (艹) at the top, indicating its relationship with plants and vegetation.",
+    "etymology": "The character combines the grass radical with components representing early growth. As a whole, it represents grass and herbaceous plants.",
+    "examples": [
+      {
+        "chinese": "草地很绿。",
+        "pinyin": "Cǎodì hěn lǜ.",
+        "english": "The grassland is very green.",
+        "note": "草 used in the word 草地 (grassland)."
+      },
+      {
+        "chinese": "不要踩草。",
+        "pinyin": "Bùyào cǎi cǎo.",
+        "english": "Don't step on the grass.",
+        "note": "草 as the object of the verb 踩 (to step on)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "花",
+        "pinyin": "huā",
+        "english": "flower"
+      },
+      {
+        "character": "树",
+        "pinyin": "shù",
+        "english": "tree"
+      },
+      {
+        "character": "叶",
+        "pinyin": "yè",
+        "english": "leaf"
+      },
+      {
+        "character": "药",
+        "pinyin": "yào",
+        "english": "medicine"
+      }
+    ],
+    "mnemonic": "The character has the grass radical on top, clearly indicating it's related to grass and plants.",
+    "radicalMnemonic": "The grass radical (艹) at the top immediately tells you this character is about vegetation.",
+    "commonWords": [
+      {
+        "chinese": "草地",
+        "pinyin": "cǎodì",
+        "english": "grassland"
+      },
+      {
+        "chinese": "草药",
+        "pinyin": "cǎoyào",
+        "english": "herbal medicine"
+      },
+      {
+        "chinese": "野草",
+        "pinyin": "yěcǎo",
+        "english": "weeds"
+      },
+      {
+        "chinese": "草原",
+        "pinyin": "cǎoyuán",
+        "english": "grassland, prairie"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "character": "树",
+    "pinyin": "shù",
+    "english": "tree",
+    "level": "HSK 1",
+    "strokes": 9,
+    "radicals": [
+      {
+        "symbol": "木",
+        "name": "Tree",
+        "meaning": "tree, wood",
+        "pinyin": "mù",
+        "color": "#65a30d",
+        "position": { "top": 50, "left": 25 },
+        "positionName": "left"
+      }
+    ],
+    "radicalExplanation": "The character 树 (shù) contains the wood radical (木) on the left, indicating its relationship with trees and wooden objects.",
+    "etymology": "The character combines the wood radical with components representing growth and establishment. It specifically refers to living trees.",
+    "examples": [
+      {
+        "chinese": "这棵树很高。",
+        "pinyin": "Zhè kē shù hěn gāo.",
+        "english": "This tree is very tall.",
+        "note": "树 used with the measure word 棵 for trees."
+      },
+      {
+        "chinese": "我们种树。",
+        "pinyin": "Wǒmen zhòng shù.",
+        "english": "We plant trees.",
+        "note": "树 as the object of the verb 种 (to plant)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "木",
+        "pinyin": "mù",
+        "english": "wood"
+      },
+      {
+        "character": "林",
+        "pinyin": "lín",
+        "english": "forest"
+      },
+      {
+        "character": "森",
+        "pinyin": "sēn",
+        "english": "dense forest"
+      },
+      {
+        "character": "叶",
+        "pinyin": "yè",
+        "english": "leaf"
+      }
+    ],
+    "mnemonic": "The character has the wood radical on the left, showing it's related to trees and wood.",
+    "radicalMnemonic": "The wood radical (木) on the left indicates this is about trees or wooden things.",
+    "commonWords": [
+      {
+        "chinese": "大树",
+        "pinyin": "dàshù",
+        "english": "big tree"
+      },
+      {
+        "chinese": "果树",
+        "pinyin": "guǒshù",
+        "english": "fruit tree"
+      },
+      {
+        "chinese": "树叶",
+        "pinyin": "shùyè",
+        "english": "tree leaves"
+      },
+      {
+        "chinese": "树林",
+        "pinyin": "shùlín",
+        "english": "woods"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "character": "鱼",
+    "pinyin": "yú",
+    "english": "fish",
+    "level": "HSK 1",
+    "strokes": 8,
+    "radicals": [
+      {
+        "symbol": "鱼",
+        "name": "Fish",
+        "meaning": "fish",
+        "pinyin": "yú",
+        "color": "#0ea5e9",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 鱼 (yú) is a pictograph representing a fish. The character depicts a fish with its head, body, tail, and fins.",
+    "etymology": "Originally a pictograph of a fish showing its distinctive features. As a radical, it indicates a relationship with fish or aquatic life.",
+    "examples": [
+      {
+        "chinese": "我喜欢吃鱼。",
+        "pinyin": "Wǒ xǐhuan chī yú.",
+        "english": "I like to eat fish.",
+        "note": "鱼 as the object of the verb 吃 (to eat)."
+      },
+      {
+        "chinese": "这条鱼很大。",
+        "pinyin": "Zhè tiáo yú hěn dà.",
+        "english": "This fish is very big.",
+        "note": "鱼 used with the measure word 条 for fish."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "虾",
+        "pinyin": "xiā",
+        "english": "shrimp"
+      },
+      {
+        "character": "蟹",
+        "pinyin": "xiè",
+        "english": "crab"
+      },
+      {
+        "character": "海",
+        "pinyin": "hǎi",
+        "english": "sea"
+      },
+      {
+        "character": "河",
+        "pinyin": "hé",
+        "english": "river"
+      }
+    ],
+    "mnemonic": "The character resembles a fish with its head, body, and tail clearly visible.",
+    "radicalMnemonic": "The character itself is the radical. It looks like a side view of a fish swimming.",
+    "commonWords": [
+      {
+        "chinese": "金鱼",
+        "pinyin": "jīnyú",
+        "english": "goldfish"
+      },
+      {
+        "chinese": "鱼肉",
+        "pinyin": "yúròu",
+        "english": "fish meat"
+      },
+      {
+        "chinese": "钓鱼",
+        "pinyin": "diàoyú",
+        "english": "to fish"
+      },
+      {
+        "chinese": "鱼汤",
+        "pinyin": "yútāng",
+        "english": "fish soup"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "character": "鸟",
+    "pinyin": "niǎo",
+    "english": "bird",
+    "level": "HSK 1",
+    "strokes": 5,
+    "radicals": [
+      {
+        "symbol": "鸟",
+        "name": "Bird",
+        "meaning": "bird",
+        "pinyin": "niǎo",
+        "color": "#f97316",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 鸟 (niǎo) is a pictograph representing a bird. The simplified form shows a bird with its distinctive features.",
+    "etymology": "Originally a pictograph of a bird with its head, body, wings, and tail. As a radical, it indicates a relationship with birds or flying creatures.",
+    "examples": [
+      {
+        "chinese": "天空中有鸟。",
+        "pinyin": "Tiānkōng zhōng yǒu niǎo.",
+        "english": "There are birds in the sky.",
+        "note": "鸟 as the subject of the sentence."
+      },
+      {
+        "chinese": "这只鸟很美。",
+        "pinyin": "Zhè zhī niǎo hěn měi.",
+        "english": "This bird is very beautiful.",
+        "note": "鸟 used with the measure word 只 for birds."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "鸡",
+        "pinyin": "jī",
+        "english": "chicken"
+      },
+      {
+        "character": "鸭",
+        "pinyin": "yā",
+        "english": "duck"
+      },
+      {
+        "character": "鹅",
+        "pinyin": "é",
+        "english": "goose"
+      },
+      {
+        "character": "飞",
+        "pinyin": "fēi",
+        "english": "to fly"
+      }
+    ],
+    "mnemonic": "The simplified character still resembles a bird with its basic bird-like shape.",
+    "radicalMnemonic": "The character itself is the radical. Even in simplified form, it maintains the essence of a bird.",
+    "commonWords": [
+      {
+        "chinese": "小鸟",
+        "pinyin": "xiǎoniǎo",
+        "english": "small bird"
+      },
+      {
+        "chinese": "鸟类",
+        "pinyin": "niǎolèi",
+        "english": "birds (category)"
+      },
+      {
+        "chinese": "鸟巢",
+        "pinyin": "niǎocháo",
+        "english": "bird's nest"
+      },
+      {
+        "chinese": "候鸟",
+        "pinyin": "hòuniǎo",
+        "english": "migratory bird"
+      }
+    ]
+  }
+]

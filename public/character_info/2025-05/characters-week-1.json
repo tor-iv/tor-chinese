@@ -1,0 +1,326 @@
+[
+  {
+    "id": "1",
+    "character": "水",
+    "pinyin": "shuǐ",
+    "english": "water",
+    "level": "HSK 1",
+    "strokes": 4,
+    "radicals": [
+      {
+        "symbol": "氵",
+        "name": "Three dots water",
+        "meaning": "water",
+        "pinyin": "shuǐ",
+        "color": "#3b82f6",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "left"
+      }
+    ],
+    "radicalExplanation": "The character 水 (shuǐ) is a pictograph representing flowing water. In its simplified form, it shows water flowing in streams.",
+    "etymology": "Originally a pictograph of flowing water. The three dots (氵) on the left side of many characters indicate a relationship with water or liquids.",
+    "examples": [
+      {
+        "chinese": "我喝水。",
+        "pinyin": "Wǒ hē shuǐ.",
+        "english": "I drink water.",
+        "note": "A simple sentence using 水 as a direct object."
+      },
+      {
+        "chinese": "这是热水。",
+        "pinyin": "Zhè shì rè shuǐ.",
+        "english": "This is hot water.",
+        "note": "水 is modified by the adjective 热 (hot)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "河",
+        "pinyin": "hé",
+        "english": "river"
+      },
+      {
+        "character": "海",
+        "pinyin": "hǎi",
+        "english": "sea"
+      },
+      {
+        "character": "湖",
+        "pinyin": "hú",
+        "english": "lake"
+      },
+      {
+        "character": "冰",
+        "pinyin": "bīng",
+        "english": "ice"
+      }
+    ],
+    "mnemonic": "Imagine water flowing like the strokes of this character, with streams branching out.",
+    "radicalMnemonic": "The three dots on the left (氵) represent droplets of water, which is exactly what this character means!",
+    "commonWords": [
+      {
+        "chinese": "水果",
+        "pinyin": "shuǐguǒ",
+        "english": "fruit"
+      },
+      {
+        "chinese": "水平",
+        "pinyin": "shuǐpíng",
+        "english": "level"
+      },
+      {
+        "chinese": "水费",
+        "pinyin": "shuǐfèi",
+        "english": "water bill"
+      },
+      {
+        "chinese": "水库",
+        "pinyin": "shuǐkù",
+        "english": "reservoir"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "character": "火",
+    "pinyin": "huǒ",
+    "english": "fire",
+    "level": "HSK 1",
+    "strokes": 4,
+    "radicals": [
+      {
+        "symbol": "火",
+        "name": "Fire",
+        "meaning": "fire, flame",
+        "pinyin": "huǒ",
+        "color": "#ef4444",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 火 (huǒ) is a pictograph representing flames rising. The four strokes depict the shape of a fire.",
+    "etymology": "Originally a pictograph of flames. When used as a radical in other characters, it often indicates a relationship with fire, heat, or light.",
+    "examples": [
+      {
+        "chinese": "小心火。",
+        "pinyin": "Xiǎoxīn huǒ.",
+        "english": "Be careful of fire.",
+        "note": "A warning using 火 as the object of concern."
+      },
+      {
+        "chinese": "这是火山。",
+        "pinyin": "Zhè shì huǒshān.",
+        "english": "This is a volcano.",
+        "note": "火 combines with 山 (mountain) to form 'fire mountain' - volcano."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "炎",
+        "pinyin": "yán",
+        "english": "flame"
+      },
+      {
+        "character": "烧",
+        "pinyin": "shāo",
+        "english": "to burn"
+      },
+      {
+        "character": "煮",
+        "pinyin": "zhǔ",
+        "english": "to cook"
+      },
+      {
+        "character": "灯",
+        "pinyin": "dēng",
+        "english": "lamp"
+      }
+    ],
+    "mnemonic": "The character looks like flames rising from a fire, with the bottom horizontal stroke representing the ground.",
+    "radicalMnemonic": "The character itself is the radical. Think of the four strokes as flames dancing upward from a campfire.",
+    "commonWords": [
+      {
+        "chinese": "火车",
+        "pinyin": "huǒchē",
+        "english": "train"
+      },
+      {
+        "chinese": "火锅",
+        "pinyin": "huǒguō",
+        "english": "hot pot"
+      },
+      {
+        "chinese": "火柴",
+        "pinyin": "huǒchái",
+        "english": "match"
+      },
+      {
+        "chinese": "火山",
+        "pinyin": "huǒshān",
+        "english": "volcano"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "character": "木",
+    "pinyin": "mù",
+    "english": "wood, tree",
+    "level": "HSK 1",
+    "strokes": 4,
+    "radicals": [
+      {
+        "symbol": "木",
+        "name": "Tree",
+        "meaning": "tree, wood",
+        "pinyin": "mù",
+        "color": "#65a30d",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 木 (mù) is a pictograph of a tree. The horizontal stroke represents the ground, the vertical stroke is the trunk, and the other strokes represent branches.",
+    "etymology": "Originally a pictograph of a tree with roots, trunk, and branches. As a radical, it indicates a relationship with trees, wood, or wooden objects.",
+    "examples": [
+      {
+        "chinese": "这是木头。",
+        "pinyin": "Zhè shì mùtou.",
+        "english": "This is wood.",
+        "note": "木 combined with 头 (head) forms the common word for 'wood' as a material."
+      },
+      {
+        "chinese": "那棵木很高。",
+        "pinyin": "Nà kē mù hěn gāo.",
+        "english": "That tree is very tall.",
+        "note": "木 used with the measure word 棵 for trees."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "林",
+        "pinyin": "lín",
+        "english": "forest"
+      },
+      {
+        "character": "森",
+        "pinyin": "sēn",
+        "english": "dense forest"
+      },
+      {
+        "character": "桌",
+        "pinyin": "zhuō",
+        "english": "table"
+      },
+      {
+        "character": "椅",
+        "pinyin": "yǐ",
+        "english": "chair"
+      }
+    ],
+    "mnemonic": "The character looks like a tree with a trunk (vertical line), roots (bottom horizontal), and branches (top strokes).",
+    "radicalMnemonic": "The character itself is the radical. Notice how it resembles a simple drawing of a tree with roots and branches.",
+    "commonWords": [
+      {
+        "chinese": "木头",
+        "pinyin": "mùtou",
+        "english": "wood"
+      },
+      {
+        "chinese": "木材",
+        "pinyin": "mùcái",
+        "english": "timber"
+      },
+      {
+        "chinese": "木匠",
+        "pinyin": "mùjiang",
+        "english": "carpenter"
+      },
+      {
+        "chinese": "木偶",
+        "pinyin": "mù'ǒu",
+        "english": "puppet"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "character": "人",
+    "pinyin": "rén",
+    "english": "person, people",
+    "level": "HSK 1",
+    "strokes": 2,
+    "radicals": [
+      {
+        "symbol": "人",
+        "name": "Person",
+        "meaning": "human, person",
+        "pinyin": "rén",
+        "color": "#8b5cf6",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 人 (rén) is a pictograph representing a person standing. The two strokes show a person in profile, with legs striding.",
+    "etymology": "Originally a pictograph of a person seen from the side. As a radical, it indicates a relationship with people or human activities.",
+    "examples": [
+      {
+        "chinese": "他是好人。",
+        "pinyin": "Tā shì hǎo rén.",
+        "english": "He is a good person.",
+        "note": "人 is modified by the adjective 好 (good)."
+      },
+      {
+        "chinese": "这里有三个人。",
+        "pinyin": "Zhèlǐ yǒu sān gè rén.",
+        "english": "There are three people here.",
+        "note": "人 used with the measure word 个 for people."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "从",
+        "pinyin": "cóng",
+        "english": "to follow"
+      },
+      {
+        "character": "众",
+        "pinyin": "zhòng",
+        "english": "crowd"
+      },
+      {
+        "character": "仁",
+        "pinyin": "rén",
+        "english": "benevolence"
+      },
+      {
+        "character": "休",
+        "pinyin": "xiū",
+        "english": "to rest"
+      }
+    ],
+    "mnemonic": "The character looks like a person walking or striding forward, with two legs represented by the two strokes.",
+    "radicalMnemonic": "The character itself is the radical. Think of the two strokes as a stick figure of a person walking.",
+    "commonWords": [
+      {
+        "chinese": "人民",
+        "pinyin": "rénmín",
+        "english": "people"
+      },
+      {
+        "chinese": "人口",
+        "pinyin": "rénkǒu",
+        "english": "population"
+      },
+      {
+        "chinese": "人生",
+        "pinyin": "rénshēng",
+        "english": "life"
+      },
+      {
+        "chinese": "人才",
+        "pinyin": "réncái",
+        "english": "talent"
+      }
+    ]
+  }
+]

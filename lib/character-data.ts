@@ -120,7 +120,20 @@ export function getCharacterForDate(date: Date): Character {
   const dateString = date.toISOString().split("T")[0]
   const userData = getUserData()
 
-  // Check if we already have a character for this date
+  // Try to get character from monthly/weekly files first (prioritize over cache)
+  const year = date.getFullYear()
+  const month = date.getMonth() + 1
+  const day = date.getDate()
+  
+  const monthlyCharacter = getCharacterForDaySync(year, month, day)
+  if (monthlyCharacter) {
+    // Save this selection for future reference (update cache with new data)
+    userData.dailyCharacters[dateString] = monthlyCharacter.id
+    saveUserData(userData)
+    return monthlyCharacter
+  }
+
+  // If no monthly/weekly file exists, check if we already have a cached character for this date
   if (userData.dailyCharacters[dateString]) {
     const characterId = userData.dailyCharacters[dateString]
     // First try to find in the full database
@@ -128,28 +141,6 @@ export function getCharacterForDate(date: Date): Character {
     if (character) {
       return character
     }
-    
-    // If not found in database, try to get from monthly file
-    const year = date.getFullYear()
-    const month = date.getMonth() + 1
-    const day = date.getDate()
-    const monthlyCharacter = getCharacterForDaySync(year, month, day)
-    if (monthlyCharacter && monthlyCharacter.id === characterId) {
-      return monthlyCharacter
-    }
-  }
-
-  // Try to get character from monthly file first
-  const year = date.getFullYear()
-  const month = date.getMonth() + 1
-  const day = date.getDate()
-  
-  const monthlyCharacter = getCharacterForDaySync(year, month, day)
-  if (monthlyCharacter) {
-    // Save this selection for future reference
-    userData.dailyCharacters[dateString] = monthlyCharacter.id
-    saveUserData(userData)
-    return monthlyCharacter
   }
 
   // Fallback to original logic if no monthly character file exists
@@ -409,4 +400,21 @@ export function loadMonthlyCharacters(year: number, month: number): void {
   // based on the year and month, potentially from an API or different files
   console.log(`Loading characters for ${year}-${month}`)
   // For now, we're using the static charactersDatabase
+}
+
+// Clear cached daily characters (useful for testing or when data changes)
+export function clearDailyCharacterCache(): void {
+  const userData = getUserData()
+  userData.dailyCharacters = {}
+  saveUserData(userData)
+  console.log('Daily character cache cleared')
+}
+
+// Clear cache for a specific date
+export function clearCacheForDate(date: Date): void {
+  const userData = getUserData()
+  const dateString = date.toISOString().split("T")[0]
+  delete userData.dailyCharacters[dateString]
+  saveUserData(userData)
+  console.log(`Cache cleared for ${dateString}`)
 }

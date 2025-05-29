@@ -1,7 +1,8 @@
 import type { Character } from "./character-data"
-import { charactersDatabase, may2023Characters, june2023Characters } from "./characters"
+import { charactersDatabase, may2023Characters } from "./characters"
 import {
   loadMonthlyCharactersFromFile,
+  loadMonthlyCharactersFromWeeklyFiles,
   loadMonthlyCharactersSync,
   areMonthlyCharactersCached,
   preloadMonthlyCharacters,
@@ -11,31 +12,38 @@ import {
 // Legacy map of year-month to character sets (kept for backward compatibility)
 const legacyMonthlyCharacterSets: Record<string, Character[]> = {
   "2023-05": may2023Characters,
-  "2023-06": june2023Characters,
   // Add more monthly sets as needed
 }
 
 /**
  * Get characters for a specific month
- * First tries to load from JSON file, then falls back to legacy hardcoded sets, then to full database
+ * First tries to load from weekly files, then monthly file, then legacy hardcoded sets, then to full database
  */
 export async function getMonthlyCharacters(year: number, month: number): Promise<Character[]> {
   try {
-    // Try to load from JSON file first
-    const characters = await loadAndValidateMonthlyCharacters(year, month)
-    return characters
-  } catch (error) {
-    console.warn(`Could not load characters from file for ${year}-${month}, trying legacy sets:`, error)
+    // Try to load from weekly files first
+    const weeklyCharacters = await loadMonthlyCharactersFromWeeklyFiles(year, month)
+    return weeklyCharacters
+  } catch (weeklyError) {
+    console.warn(`Could not load characters from weekly files for ${year}-${month}, trying monthly file:`, weeklyError)
     
-    // Fall back to legacy hardcoded sets
-    const key = `${year}-${month.toString().padStart(2, "0")}`
-    if (legacyMonthlyCharacterSets[key]) {
-      return legacyMonthlyCharacterSets[key]
+    try {
+      // Try to load from monthly JSON file
+      const characters = await loadAndValidateMonthlyCharacters(year, month)
+      return characters
+    } catch (monthlyError) {
+      console.warn(`Could not load characters from monthly file for ${year}-${month}, trying legacy sets:`, monthlyError)
+      
+      // Fall back to legacy hardcoded sets
+      const key = `${year}-${month.toString().padStart(2, "0")}`
+      if (legacyMonthlyCharacterSets[key]) {
+        return legacyMonthlyCharacterSets[key]
+      }
+      
+      // Final fallback to full database
+      console.warn(`No character set found for ${year}-${month}, using full database`)
+      return charactersDatabase
     }
-    
-    // Final fallback to full database
-    console.warn(`No character set found for ${year}-${month}, using full database`)
-    return charactersDatabase
   }
 }
 

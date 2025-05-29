@@ -1,0 +1,326 @@
+[
+  {
+    "id": "8",
+    "character": "手",
+    "pinyin": "shǒu",
+    "english": "hand",
+    "level": "HSK 1",
+    "strokes": 4,
+    "radicals": [
+      {
+        "symbol": "手",
+        "name": "Hand",
+        "meaning": "hand",
+        "pinyin": "shǒu",
+        "color": "#f97316",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 手 (shǒu) is a pictograph representing a hand. The character depicts a hand with fingers extended.",
+    "etymology": "Originally a pictograph of a hand with five fingers. As a radical, it often appears on the left side of characters as 扌 and indicates a relationship with actions performed by hand.",
+    "examples": [
+      {
+        "chinese": "我的手很冷。",
+        "pinyin": "Wǒ de shǒu hěn lěng.",
+        "english": "My hands are very cold.",
+        "note": "手 referring to the physical hand."
+      },
+      {
+        "chinese": "请举手。",
+        "pinyin": "Qǐng jǔ shǒu.",
+        "english": "Please raise your hand.",
+        "note": "手 as the object of the verb 举 (to raise)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "打",
+        "pinyin": "dǎ",
+        "english": "to hit"
+      },
+      {
+        "character": "抓",
+        "pinyin": "zhuā",
+        "english": "to grab"
+      },
+      {
+        "character": "指",
+        "pinyin": "zhǐ",
+        "english": "finger"
+      },
+      {
+        "character": "拿",
+        "pinyin": "ná",
+        "english": "to take"
+      }
+    ],
+    "mnemonic": "The character resembles a hand with fingers extended, which is exactly what it means!",
+    "radicalMnemonic": "The character itself is the radical. When used as a component in other characters, it often appears as 扌 on the left side.",
+    "commonWords": [
+      {
+        "chinese": "手机",
+        "pinyin": "shǒujī",
+        "english": "mobile phone"
+      },
+      {
+        "chinese": "手表",
+        "pinyin": "shǒubiǎo",
+        "english": "wristwatch"
+      },
+      {
+        "chinese": "洗手",
+        "pinyin": "xǐshǒu",
+        "english": "to wash hands"
+      },
+      {
+        "chinese": "手套",
+        "pinyin": "shǒutào",
+        "english": "gloves"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "character": "目",
+    "pinyin": "mù",
+    "english": "eye",
+    "level": "HSK 2",
+    "strokes": 5,
+    "radicals": [
+      {
+        "symbol": "目",
+        "name": "Eye",
+        "meaning": "eye",
+        "pinyin": "mù",
+        "color": "#0ea5e9",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 目 (mù) is a pictograph representing an eye. The character depicts a front view of an eye with the pupil in the center.",
+    "etymology": "Originally a pictograph of an eye. As a radical, it indicates a relationship with seeing, vision, or eyes.",
+    "examples": [
+      {
+        "chinese": "他的目很大。",
+        "pinyin": "Tā de mù hěn dà.",
+        "english": "His eyes are very big.",
+        "note": "目 referring to the physical eye, though 眼睛 is more common in modern Chinese."
+      },
+      {
+        "chinese": "目前我很忙。",
+        "pinyin": "Mùqián wǒ hěn máng.",
+        "english": "Currently I am very busy.",
+        "note": "目 used in the word 目前 (currently)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "眼",
+        "pinyin": "yǎn",
+        "english": "eye"
+      },
+      {
+        "character": "看",
+        "pinyin": "kàn",
+        "english": "to look"
+      },
+      {
+        "character": "睛",
+        "pinyin": "jīng",
+        "english": "eyeball"
+      },
+      {
+        "character": "睡",
+        "pinyin": "shuì",
+        "english": "to sleep"
+      }
+    ],
+    "mnemonic": "The character looks like a front view of an eye with horizontal lines representing the eyelids and a square pupil.",
+    "radicalMnemonic": "The character itself is the radical. The square represents the eye, and the horizontal lines represent the eyelids.",
+    "commonWords": [
+      {
+        "chinese": "目标",
+        "pinyin": "mùbiāo",
+        "english": "target, goal"
+      },
+      {
+        "chinese": "目录",
+        "pinyin": "mùlù",
+        "english": "catalog, directory"
+      },
+      {
+        "chinese": "目的",
+        "pinyin": "mùdì",
+        "english": "purpose, aim"
+      },
+      {
+        "chinese": "注目",
+        "pinyin": "zhùmù",
+        "english": "to pay attention to"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "character": "耳",
+    "pinyin": "ěr",
+    "english": "ear",
+    "level": "HSK 2",
+    "strokes": 6,
+    "radicals": [
+      {
+        "symbol": "耳",
+        "name": "Ear",
+        "meaning": "ear",
+        "pinyin": "ěr",
+        "color": "#f97316",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 耳 (ěr) is a pictograph representing an ear. The character depicts the shape of a human ear.",
+    "etymology": "Originally a pictograph of a human ear. As a radical, it indicates a relationship with hearing, listening, or ears.",
+    "examples": [
+      {
+        "chinese": "我的耳朵很大。",
+        "pinyin": "Wǒ de ěrduo hěn dà.",
+        "english": "My ears are very big.",
+        "note": "耳 used in the word 耳朵 (ear)."
+      },
+      {
+        "chinese": "请仔细听。",
+        "pinyin": "Qǐng zǐxì tīng.",
+        "english": "Please listen carefully.",
+        "note": "While this example doesn't use 耳 directly, it's related to the function of ears."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "听",
+        "pinyin": "tīng",
+        "english": "to listen"
+      },
+      {
+        "character": "聪",
+        "pinyin": "cōng",
+        "english": "clever"
+      },
+      {
+        "character": "声",
+        "pinyin": "shēng",
+        "english": "sound"
+      },
+      {
+        "character": "聊",
+        "pinyin": "liáo",
+        "english": "to chat"
+      }
+    ],
+    "mnemonic": "The character resembles the shape of a human ear, which is exactly what it means!",
+    "radicalMnemonic": "The character itself is the radical. The curved strokes represent the outer ear and ear canal.",
+    "commonWords": [
+      {
+        "chinese": "耳朵",
+        "pinyin": "ěrduo",
+        "english": "ear"
+      },
+      {
+        "chinese": "耳机",
+        "pinyin": "ěrjī",
+        "english": "headphones"
+      },
+      {
+        "chinese": "耳环",
+        "pinyin": "ěrhuán",
+        "english": "earrings"
+      },
+      {
+        "chinese": "充耳不闻",
+        "pinyin": "chōng'ěrbùwén",
+        "english": "to turn a deaf ear"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "character": "雨",
+    "pinyin": "yǔ",
+    "english": "rain",
+    "level": "HSK 1",
+    "strokes": 8,
+    "radicals": [
+      {
+        "symbol": "雨",
+        "name": "Rain",
+        "meaning": "rain",
+        "pinyin": "yǔ",
+        "color": "#3b82f6",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 雨 (yǔ) is a pictograph representing rain. The top part represents clouds, and the four dots below represent raindrops falling from the clouds.",
+    "etymology": "Originally a pictograph of rain falling from clouds. As a radical, it indicates a relationship with rain, precipitation, or weather phenomena.",
+    "examples": [
+      {
+        "chinese": "今天下雨了。",
+        "pinyin": "Jīntiān xià yǔ le.",
+        "english": "It's raining today.",
+        "note": "雨 used with the verb 下 (to fall) to describe rain falling."
+      },
+      {
+        "chinese": "这是雨伞。",
+        "pinyin": "Zhè shì yǔsǎn.",
+        "english": "This is an umbrella.",
+        "note": "雨 used in the word 雨伞 (umbrella)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "雪",
+        "pinyin": "xuě",
+        "english": "snow"
+      },
+      {
+        "character": "雷",
+        "pinyin": "léi",
+        "english": "thunder"
+      },
+      {
+        "character": "雾",
+        "pinyin": "wù",
+        "english": "fog"
+      },
+      {
+        "character": "霜",
+        "pinyin": "shuāng",
+        "english": "frost"
+      }
+    ],
+    "mnemonic": "The character shows clouds at the top and raindrops (the four dots) falling below, which is exactly what rain is!",
+    "radicalMnemonic": "The character itself is the radical. The top part represents clouds, and the four dots represent raindrops falling from the clouds.",
+    "commonWords": [
+      {
+        "chinese": "下雨",
+        "pinyin": "xià yǔ",
+        "english": "to rain"
+      },
+      {
+        "chinese": "雨伞",
+        "pinyin": "yǔsǎn",
+        "english": "umbrella"
+      },
+      {
+        "chinese": "雨水",
+        "pinyin": "yǔshuǐ",
+        "english": "rainwater"
+      },
+      {
+        "chinese": "雨季",
+        "pinyin": "yǔjì",
+        "english": "rainy season"
+      }
+    ]
+  }
+]
