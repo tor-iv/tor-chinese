@@ -1,0 +1,326 @@
+[
+  {
+    "id": "15",
+    "character": "山",
+    "pinyin": "shān",
+    "english": "mountain",
+    "level": "HSK 1",
+    "strokes": 3,
+    "radicals": [
+      {
+        "symbol": "山",
+        "name": "Mountain",
+        "meaning": "mountain",
+        "pinyin": "shān",
+        "color": "#84cc16",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 山 (shān) is a pictograph representing a mountain with three peaks. The three strokes depict the outline of a mountain range.",
+    "etymology": "Originally a pictograph of a mountain with three peaks. As a radical, it indicates a relationship with mountains, hills, or rugged terrain.",
+    "examples": [
+      {
+        "chinese": "这是高山。",
+        "pinyin": "Zhè shì gāo shān.",
+        "english": "This is a high mountain.",
+        "note": "山 is modified by the adjective 高 (high)."
+      },
+      {
+        "chinese": "我们爬山。",
+        "pinyin": "Wǒmen pá shān.",
+        "english": "We climb mountains.",
+        "note": "山 is used as the object of the verb 爬 (to climb)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "岩",
+        "pinyin": "yán",
+        "english": "rock"
+      },
+      {
+        "character": "岛",
+        "pinyin": "dǎo",
+        "english": "island"
+      },
+      {
+        "character": "峰",
+        "pinyin": "fēng",
+        "english": "peak"
+      },
+      {
+        "character": "崖",
+        "pinyin": "yá",
+        "english": "cliff"
+      }
+    ],
+    "mnemonic": "The character looks like a mountain with three peaks, which is exactly what it means!",
+    "radicalMnemonic": "The character itself is the radical. The three strokes represent three mountain peaks rising from the ground.",
+    "commonWords": [
+      {
+        "chinese": "山水",
+        "pinyin": "shānshuǐ",
+        "english": "landscape"
+      },
+      {
+        "chinese": "火山",
+        "pinyin": "huǒshān",
+        "english": "volcano"
+      },
+      {
+        "chinese": "山区",
+        "pinyin": "shānqū",
+        "english": "mountainous area"
+      },
+      {
+        "chinese": "山脉",
+        "pinyin": "shānmài",
+        "english": "mountain range"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "character": "石",
+    "pinyin": "shí",
+    "english": "stone, rock",
+    "level": "HSK 2",
+    "strokes": 5,
+    "radicals": [
+      {
+        "symbol": "石",
+        "name": "Stone",
+        "meaning": "stone, rock",
+        "pinyin": "shí",
+        "color": "#6b7280",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 石 (shí) is a pictograph representing a stone or rock. The character depicts a cliff with stones falling from it.",
+    "etymology": "Originally a pictograph of a cliff with stones. As a radical, it indicates a relationship with stones, rocks, or hard materials.",
+    "examples": [
+      {
+        "chinese": "这是大石头。",
+        "pinyin": "Zhè shì dà shítou.",
+        "english": "This is a big stone.",
+        "note": "石 used in the word 石头 (stone)."
+      },
+      {
+        "chinese": "石桥很古老。",
+        "pinyin": "Shí qiáo hěn gǔlǎo.",
+        "english": "The stone bridge is very old.",
+        "note": "石 used as an adjective meaning 'stone' or 'made of stone'."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "岩",
+        "pinyin": "yán",
+        "english": "rock"
+      },
+      {
+        "character": "砖",
+        "pinyin": "zhuān",
+        "english": "brick"
+      },
+      {
+        "character": "硬",
+        "pinyin": "yìng",
+        "english": "hard"
+      },
+      {
+        "character": "矿",
+        "pinyin": "kuàng",
+        "english": "mineral"
+      }
+    ],
+    "mnemonic": "The character resembles a cliff with stones, representing the concept of stone or rock.",
+    "radicalMnemonic": "The character itself is the radical. The strokes represent a cliff face with stones.",
+    "commonWords": [
+      {
+        "chinese": "石头",
+        "pinyin": "shítou",
+        "english": "stone"
+      },
+      {
+        "chinese": "石油",
+        "pinyin": "shíyóu",
+        "english": "petroleum"
+      },
+      {
+        "chinese": "宝石",
+        "pinyin": "bǎoshí",
+        "english": "gemstone"
+      },
+      {
+        "chinese": "化石",
+        "pinyin": "huàshí",
+        "english": "fossil"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "character": "土",
+    "pinyin": "tǔ",
+    "english": "earth, soil",
+    "level": "HSK 1",
+    "strokes": 3,
+    "radicals": [
+      {
+        "symbol": "土",
+        "name": "Earth",
+        "meaning": "earth, soil",
+        "pinyin": "tǔ",
+        "color": "#a16207",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 土 (tǔ) is a pictograph representing earth or soil. The character depicts a mound of earth with a plant growing from it.",
+    "etymology": "Originally a pictograph of a mound of earth. As a radical, it indicates a relationship with earth, soil, or land.",
+    "examples": [
+      {
+        "chinese": "这是黑土。",
+        "pinyin": "Zhè shì hēi tǔ.",
+        "english": "This is black soil.",
+        "note": "土 modified by the color 黑 (black)."
+      },
+      {
+        "chinese": "土豆很好吃。",
+        "pinyin": "Tǔdòu hěn hǎochī.",
+        "english": "Potatoes are delicious.",
+        "note": "土 used in the word 土豆 (potato)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "地",
+        "pinyin": "dì",
+        "english": "ground"
+      },
+      {
+        "character": "坐",
+        "pinyin": "zuò",
+        "english": "to sit"
+      },
+      {
+        "character": "城",
+        "pinyin": "chéng",
+        "english": "city"
+      },
+      {
+        "character": "场",
+        "pinyin": "chǎng",
+        "english": "field"
+      }
+    ],
+    "mnemonic": "The character looks like a mound of earth with a horizontal line representing the ground level.",
+    "radicalMnemonic": "The character itself is the radical. The horizontal lines represent layers of earth or soil.",
+    "commonWords": [
+      {
+        "chinese": "土地",
+        "pinyin": "tǔdì",
+        "english": "land"
+      },
+      {
+        "chinese": "土豆",
+        "pinyin": "tǔdòu",
+        "english": "potato"
+      },
+      {
+        "chinese": "本土",
+        "pinyin": "běntǔ",
+        "english": "native"
+      },
+      {
+        "chinese": "泥土",
+        "pinyin": "nítǔ",
+        "english": "mud"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "character": "金",
+    "pinyin": "jīn",
+    "english": "gold, metal",
+    "level": "HSK 2",
+    "strokes": 8,
+    "radicals": [
+      {
+        "symbol": "金",
+        "name": "Gold",
+        "meaning": "gold, metal",
+        "pinyin": "jīn",
+        "color": "#eab308",
+        "position": { "top": 50, "left": 50 },
+        "positionName": "full"
+      }
+    ],
+    "radicalExplanation": "The character 金 (jīn) is a pictograph representing gold or metal. The character depicts a mine or furnace with precious metals inside.",
+    "etymology": "Originally a pictograph of a mine or furnace containing precious metals. As a radical, it indicates a relationship with metals, money, or valuable materials.",
+    "examples": [
+      {
+        "chinese": "这是真金。",
+        "pinyin": "Zhè shì zhēn jīn.",
+        "english": "This is real gold.",
+        "note": "金 modified by the adjective 真 (real)."
+      },
+      {
+        "chinese": "金鱼很漂亮。",
+        "pinyin": "Jīnyú hěn piàoliang.",
+        "english": "Goldfish are beautiful.",
+        "note": "金 used in the word 金鱼 (goldfish)."
+      }
+    ],
+    "relatedCharacters": [
+      {
+        "character": "银",
+        "pinyin": "yín",
+        "english": "silver"
+      },
+      {
+        "character": "铜",
+        "pinyin": "tóng",
+        "english": "copper"
+      },
+      {
+        "character": "钱",
+        "pinyin": "qián",
+        "english": "money"
+      },
+      {
+        "character": "铁",
+        "pinyin": "tiě",
+        "english": "iron"
+      }
+    ],
+    "mnemonic": "The character resembles a mine or furnace containing precious metals, representing gold and metal.",
+    "radicalMnemonic": "The character itself is the radical. The strokes represent a container holding valuable metals.",
+    "commonWords": [
+      {
+        "chinese": "金钱",
+        "pinyin": "jīnqián",
+        "english": "money"
+      },
+      {
+        "chinese": "黄金",
+        "pinyin": "huángjīn",
+        "english": "gold"
+      },
+      {
+        "chinese": "金属",
+        "pinyin": "jīnshǔ",
+        "english": "metal"
+      },
+      {
+        "chinese": "金融",
+        "pinyin": "jīnróng",
+        "english": "finance"
+      }
+    ]
+  }
+]
