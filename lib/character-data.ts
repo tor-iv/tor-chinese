@@ -1,4 +1,5 @@
 import { charactersDatabase } from "./characters"
+import { getCharacterForDaySync } from "./character-loader"
 
 export interface Position {
   top: number
@@ -122,13 +123,36 @@ export function getCharacterForDate(date: Date): Character {
   // Check if we already have a character for this date
   if (userData.dailyCharacters[dateString]) {
     const characterId = userData.dailyCharacters[dateString]
-    const character = charactersDatabase.find((c) => c.id === characterId)
+    // First try to find in the full database
+    let character = charactersDatabase.find((c) => c.id === characterId)
     if (character) {
       return character
     }
+    
+    // If not found in database, try to get from monthly file
+    const year = date.getFullYear()
+    const month = date.getMonth() + 1
+    const day = date.getDate()
+    const monthlyCharacter = getCharacterForDaySync(year, month, day)
+    if (monthlyCharacter && monthlyCharacter.id === characterId) {
+      return monthlyCharacter
+    }
   }
 
-  // If not, assign a new character for this date
+  // Try to get character from monthly file first
+  const year = date.getFullYear()
+  const month = date.getMonth() + 1
+  const day = date.getDate()
+  
+  const monthlyCharacter = getCharacterForDaySync(year, month, day)
+  if (monthlyCharacter) {
+    // Save this selection for future reference
+    userData.dailyCharacters[dateString] = monthlyCharacter.id
+    saveUserData(userData)
+    return monthlyCharacter
+  }
+
+  // Fallback to original logic if no monthly character file exists
   // Try to avoid repeating characters from the past week
   const oneWeekAgo = new Date(date)
   oneWeekAgo.setDate(oneWeekAgo.getDate() - 7)
@@ -198,11 +222,36 @@ export function getReviewCharacters(): Character[] {
     }
   }
 
-  // Get the actual character objects
-  return dueCharacterIds
-    .map((id) => charactersDatabase.find((c) => c.id === id))
-    .filter((c): c is Character => c !== undefined)
-    .slice(0, 5) // Limit to 5 characters for review
+  // Get the actual character objects - try both database and monthly files
+  const reviewCharacters: Character[] = []
+  
+  for (const id of dueCharacterIds) {
+    // First try to find in the database
+    let character = charactersDatabase.find((c) => c.id === id)
+    
+    // If not found in database, try to find in monthly files by checking recent dates
+    if (!character) {
+      for (const [dateStr, charId] of Object.entries(userData.dailyCharacters)) {
+        if (charId === id) {
+          const date = new Date(dateStr)
+          const year = date.getFullYear()
+          const month = date.getMonth() + 1
+          const day = date.getDate()
+          const monthlyCharacter = getCharacterForDaySync(year, month, day)
+          if (monthlyCharacter && monthlyCharacter.id === id) {
+            character = monthlyCharacter
+            break
+          }
+        }
+      }
+    }
+    
+    if (character) {
+      reviewCharacters.push(character)
+    }
+  }
+  
+  return reviewCharacters.slice(0, 5) // Limit to 5 characters for review
 }
 
 // Mark a character as reviewed
