@@ -29,7 +29,7 @@ export default function ReviewPage() {
       </main>
       <footer className="bg-white border-t border-slate-200 py-4">
         <div className="container mx-auto px-4 text-center text-slate-500 text-sm">
-          © {new Date().getFullYear()} Daily Chinese Learning App
+          © {new Date().getFullYear()} Tor Chinese - 每日汉字
         </div>
       </footer>
     </div>
