@@ -1797,6 +1797,1236 @@ export const charactersDatabase: Character[] = [
       },
     ],
   },
+  {
+    id: "22",
+    character: "大",
+    pinyin: "dà",
+    english: "big, large",
+    level: "HSK 1",
+    strokes: 3,
+    radicals: [
+      {
+        symbol: "大",
+        name: "Big",
+        meaning: "big, large",
+        pinyin: "dà",
+        color: "#ef4444",
+        position: { top: 50, left: 50 },
+        positionName: "full",
+      },
+    ],
+    radicalExplanation:
+      "The character 大 (dà) is a pictograph representing a person with arms and legs spread wide, indicating something big or large.",
+    etymology:
+      "Originally a pictograph of a person with outstretched arms and legs. As a radical, it indicates size, importance, or magnitude.",
+    examples: [
+      {
+        chinese: "这是大房子。",
+        pinyin: "Zhè shì dà fángzi.",
+        english: "This is a big house.",
+        note: "大 used as an adjective to describe size.",
+      },
+      {
+        chinese: "大学很有名。",
+        pinyin: "Dàxué hěn yǒumíng.",
+        english: "The university is very famous.",
+        note: "大 used in the compound word 大学 (university).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "小",
+        pinyin: "xiǎo",
+        english: "small",
+      },
+      {
+        character: "太",
+        pinyin: "tài",
+        english: "too, very",
+      },
+      {
+        character: "天",
+        pinyin: "tiān",
+        english: "sky, day",
+      },
+      {
+        character: "夫",
+        pinyin: "fū",
+        english: "husband",
+      },
+    ],
+    mnemonic: "The character looks like a person with arms and legs spread wide, showing something big.",
+    radicalMnemonic: "Think of a person stretching their arms wide to show how big something is.",
+    commonWords: [
+      {
+        chinese: "大学",
+        pinyin: "dàxué",
+        english: "university",
+      },
+      {
+        chinese: "大家",
+        pinyin: "dàjiā",
+        english: "everyone",
+      },
+      {
+        chinese: "大概",
+        pinyin: "dàgài",
+        english: "probably",
+      },
+      {
+        chinese: "大小",
+        pinyin: "dàxiǎo",
+        english: "size",
+      },
+    ],
+  },
+  {
+    id: "23",
+    character: "小",
+    pinyin: "xiǎo",
+    english: "small, little",
+    level: "HSK 1",
+    strokes: 3,
+    radicals: [
+      {
+        symbol: "小",
+        name: "Small",
+        meaning: "small, little",
+        pinyin: "xiǎo",
+        color: "#8b5cf6",
+        position: { top: 50, left: 50 },
+        positionName: "full",
+      },
+    ],
+    radicalExplanation:
+      "The character 小 (xiǎo) represents something small. The three strokes suggest something diminutive or reduced in size.",
+    etymology:
+      "The character depicts small particles or dots, representing the concept of smallness. As a radical, it indicates size or youth.",
+    examples: [
+      {
+        chinese: "小猫很可爱。",
+        pinyin: "Xiǎo māo hěn kě'ài.",
+        english: "The little cat is very cute.",
+        note: "小 used as an adjective to describe size.",
+      },
+      {
+        chinese: "小心开车。",
+        pinyin: "Xiǎoxīn kāichē.",
+        english: "Drive carefully.",
+        note: "小 used in the compound word 小心 (careful).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "大",
+        pinyin: "dà",
+        english: "big",
+      },
+      {
+        character: "少",
+        pinyin: "shǎo",
+        english: "few, little",
+      },
+      {
+        character: "尖",
+        pinyin: "jiān",
+        english: "sharp, pointed",
+      },
+      {
+        character: "尘",
+        pinyin: "chén",
+        english: "dust",
+      },
+    ],
+    mnemonic: "The character looks like small dots or particles, representing something tiny.",
+    radicalMnemonic: "Think of three small dots coming together to form something small.",
+    commonWords: [
+      {
+        chinese: "小学",
+        pinyin: "xiǎoxué",
+        english: "elementary school",
+      },
+      {
+        chinese: "小时",
+        pinyin: "xiǎoshí",
+        english: "hour",
+      },
+      {
+        chinese: "小心",
+        pinyin: "xiǎoxīn",
+        english: "careful",
+      },
+      {
+        chinese: "小姐",
+        pinyin: "xiǎojiě",
+        english: "miss, young lady",
+      },
+    ],
+  },
+  {
+    id: "24",
+    character: "好",
+    pinyin: "hǎo",
+    english: "good, well",
+    level: "HSK 1",
+    strokes: 6,
+    radicals: [
+      {
+        symbol: "女",
+        name: "Woman",
+        meaning: "woman, female",
+        pinyin: "nǚ",
+        color: "#ec4899",
+        position: { top: 50, left: 25 },
+        positionName: "left",
+      },
+      {
+        symbol: "子",
+        name: "Child",
+        meaning: "child, seed",
+        pinyin: "zǐ",
+        color: "#0ea5e9",
+        position: { top: 50, left: 75 },
+        positionName: "right",
+      },
+    ],
+    radicalExplanation:
+      "The character 好 (hǎo) combines 女 (woman) and 子 (child), suggesting the goodness of a mother with her child.",
+    etymology:
+      "The combination of woman and child represents the ideal of maternal love and care, which is considered good and beautiful in Chinese culture.",
+    examples: [
+      {
+        chinese: "今天天气很好。",
+        pinyin: "Jīntiān tiānqì hěn hǎo.",
+        english: "The weather is very good today.",
+        note: "好 used as an adjective meaning 'good'.",
+      },
+      {
+        chinese: "你好！",
+        pinyin: "Nǐ hǎo!",
+        english: "Hello!",
+        note: "好 used in the common greeting 你好.",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "女",
+        pinyin: "nǚ",
+        english: "woman",
+      },
+      {
+        character: "子",
+        pinyin: "zǐ",
+        english: "child",
+      },
+      {
+        character: "妈",
+        pinyin: "mā",
+        english: "mother",
+      },
+      {
+        character: "如",
+        pinyin: "rú",
+        english: "like, as",
+      },
+    ],
+    mnemonic: "A woman with her child represents something good and beautiful.",
+    radicalMnemonic: "The woman (女) and child (子) together symbolize the goodness of family.",
+    commonWords: [
+      {
+        chinese: "你好",
+        pinyin: "nǐhǎo",
+        english: "hello",
+      },
+      {
+        chinese: "好吃",
+        pinyin: "hǎochī",
+        english: "delicious",
+      },
+      {
+        chinese: "好看",
+        pinyin: "hǎokàn",
+        english: "good-looking",
+      },
+      {
+        chinese: "好听",
+        pinyin: "hǎotīng",
+        english: "pleasant to hear",
+      },
+    ],
+  },
+  {
+    id: "25",
+    character: "来",
+    pinyin: "lái",
+    english: "to come",
+    level: "HSK 1",
+    strokes: 7,
+    radicals: [
+      {
+        symbol: "来",
+        name: "Come",
+        meaning: "to come",
+        pinyin: "lái",
+        color: "#22c55e",
+        position: { top: 50, left: 50 },
+        positionName: "full",
+      },
+    ],
+    radicalExplanation:
+      "The character 来 (lái) is a pictograph representing wheat or grain, but has evolved to mean 'to come'.",
+    etymology:
+      "Originally depicted wheat stalks, but through phonetic borrowing, it came to represent the concept of coming or arriving.",
+    examples: [
+      {
+        chinese: "他来了。",
+        pinyin: "Tā lái le.",
+        english: "He came/has come.",
+        note: "来 used as a verb meaning 'to come'.",
+      },
+      {
+        chinese: "来中国学习。",
+        pinyin: "Lái Zhōngguó xuéxí.",
+        english: "Come to China to study.",
+        note: "来 indicating direction of movement.",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "去",
+        pinyin: "qù",
+        english: "to go",
+      },
+      {
+        character: "回",
+        pinyin: "huí",
+        english: "to return",
+      },
+      {
+        character: "到",
+        pinyin: "dào",
+        english: "to arrive",
+      },
+      {
+        character: "走",
+        pinyin: "zǒu",
+        english: "to walk",
+      },
+    ],
+    mnemonic: "Think of wheat growing and 'coming' up from the ground.",
+    radicalMnemonic: "The character itself is the radical, representing the concept of arrival or coming.",
+    commonWords: [
+      {
+        chinese: "来到",
+        pinyin: "láidào",
+        english: "to arrive",
+      },
+      {
+        chinese: "原来",
+        pinyin: "yuánlái",
+        english: "originally",
+      },
+      {
+        chinese: "未来",
+        pinyin: "wèilái",
+        english: "future",
+      },
+      {
+        chinese: "起来",
+        pinyin: "qǐlái",
+        english: "to get up",
+      },
+    ],
+  },
+  {
+    id: "26",
+    character: "去",
+    pinyin: "qù",
+    english: "to go",
+    level: "HSK 1",
+    strokes: 5,
+    radicals: [
+      {
+        symbol: "去",
+        name: "Go",
+        meaning: "to go",
+        pinyin: "qù",
+        color: "#f97316",
+        position: { top: 50, left: 50 },
+        positionName: "full",
+      },
+    ],
+    radicalExplanation: "The character 去 (qù) represents the concept of going away or departing from a place.",
+    etymology: "The character shows movement away from a starting point, representing the action of going or leaving.",
+    examples: [
+      {
+        chinese: "我去学校。",
+        pinyin: "Wǒ qù xuéxiào.",
+        english: "I go to school.",
+        note: "去 used as a verb meaning 'to go'.",
+      },
+      {
+        chinese: "去年很忙。",
+        pinyin: "Qùnián hěn máng.",
+        english: "Last year was very busy.",
+        note: "去 used in the compound word 去年 (last year).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "来",
+        pinyin: "lái",
+        english: "to come",
+      },
+      {
+        character: "走",
+        pinyin: "zǒu",
+        english: "to walk",
+      },
+      {
+        character: "到",
+        pinyin: "dào",
+        english: "to arrive",
+      },
+      {
+        character: "回",
+        pinyin: "huí",
+        english: "to return",
+      },
+    ],
+    mnemonic: "The character shows movement away from a starting point.",
+    radicalMnemonic: "Think of the character as showing the path of going away.",
+    commonWords: [
+      {
+        chinese: "去年",
+        pinyin: "qùnián",
+        english: "last year",
+      },
+      {
+        chinese: "过去",
+        pinyin: "guòqù",
+        english: "past",
+      },
+      {
+        chinese: "进去",
+        pinyin: "jìnqù",
+        english: "to go in",
+      },
+      {
+        chinese: "出去",
+        pinyin: "chūqù",
+        english: "to go out",
+      },
+    ],
+  },
+  {
+    id: "27",
+    character: "吃",
+    pinyin: "chī",
+    english: "to eat",
+    level: "HSK 1",
+    strokes: 6,
+    radicals: [
+      {
+        symbol: "口",
+        name: "Mouth",
+        meaning: "mouth, opening",
+        pinyin: "kǒu",
+        color: "#f97316",
+        position: { top: 50, left: 25 },
+        positionName: "left",
+      },
+      {
+        symbol: "乞",
+        name: "Beg",
+        meaning: "to beg",
+        pinyin: "qǐ",
+        color: "#8b5cf6",
+        position: { top: 50, left: 75 },
+        positionName: "right",
+      },
+    ],
+    radicalExplanation:
+      "The character 吃 (chī) combines 口 (mouth) with 乞 (to beg), suggesting the act of putting food in the mouth.",
+    etymology:
+      "The mouth radical indicates the action involves the mouth, while the phonetic component provides the sound.",
+    examples: [
+      {
+        chinese: "我吃饭。",
+        pinyin: "Wǒ chī fàn.",
+        english: "I eat rice/meal.",
+        note: "吃 used as a verb meaning 'to eat'.",
+      },
+      {
+        chinese: "吃苹果很健康。",
+        pinyin: "Chī píngguǒ hěn jiànkāng.",
+        english: "Eating apples is healthy.",
+        note: "吃 used with a specific food item.",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "喝",
+        pinyin: "hē",
+        english: "to drink",
+      },
+      {
+        character: "饭",
+        pinyin: "fàn",
+        english: "rice, meal",
+      },
+      {
+        character: "食",
+        pinyin: "shí",
+        english: "food",
+      },
+      {
+        character: "咬",
+        pinyin: "yǎo",
+        english: "to bite",
+      },
+    ],
+    mnemonic: "The mouth (口) is used for eating, which is what this character represents.",
+    radicalMnemonic: "The mouth radical (口) clearly indicates this action involves the mouth.",
+    commonWords: [
+      {
+        chinese: "吃饭",
+        pinyin: "chīfàn",
+        english: "to eat a meal",
+      },
+      {
+        chinese: "好吃",
+        pinyin: "hǎochī",
+        english: "delicious",
+      },
+      {
+        chinese: "吃药",
+        pinyin: "chīyào",
+        english: "to take medicine",
+      },
+      {
+        chinese: "吃苦",
+        pinyin: "chīkǔ",
+        english: "to endure hardship",
+      },
+    ],
+  },
+  {
+    id: "28",
+    character: "喝",
+    pinyin: "hē",
+    english: "to drink",
+    level: "HSK 1",
+    strokes: 12,
+    radicals: [
+      {
+        symbol: "口",
+        name: "Mouth",
+        meaning: "mouth, opening",
+        pinyin: "kǒu",
+        color: "#f97316",
+        position: { top: 50, left: 15 },
+        positionName: "left",
+      },
+      {
+        symbol: "曷",
+        name: "What",
+        meaning: "what, how",
+        pinyin: "hé",
+        color: "#8b5cf6",
+        position: { top: 50, left: 70 },
+        positionName: "right",
+      },
+    ],
+    radicalExplanation:
+      "The character 喝 (hē) combines 口 (mouth) with 曷 (what), where the mouth radical indicates the action involves drinking.",
+    etymology:
+      "The mouth radical shows this is an oral action, while the right component provides the phonetic element.",
+    examples: [
+      {
+        chinese: "我喝水。",
+        pinyin: "Wǒ hē shuǐ.",
+        english: "I drink water.",
+        note: "喝 used as a verb meaning 'to drink'.",
+      },
+      {
+        chinese: "喝茶很舒服。",
+        pinyin: "Hē chá hěn shūfu.",
+        english: "Drinking tea is comfortable.",
+        note: "喝 used with a specific beverage.",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "吃",
+        pinyin: "chī",
+        english: "to eat",
+      },
+      {
+        character: "水",
+        pinyin: "shuǐ",
+        english: "water",
+      },
+      {
+        character: "茶",
+        pinyin: "chá",
+        english: "tea",
+      },
+      {
+        character: "酒",
+        pinyin: "jiǔ",
+        english: "alcohol",
+      },
+    ],
+    mnemonic: "The mouth (口) is used for drinking liquids.",
+    radicalMnemonic: "The mouth radical (口) indicates this action involves the mouth for liquids.",
+    commonWords: [
+      {
+        chinese: "喝水",
+        pinyin: "hēshuǐ",
+        english: "to drink water",
+      },
+      {
+        chinese: "喝茶",
+        pinyin: "hēchá",
+        english: "to drink tea",
+      },
+      {
+        chinese: "喝酒",
+        pinyin: "hējiǔ",
+        english: "to drink alcohol",
+      },
+      {
+        chinese: "喝咖啡",
+        pinyin: "hē kāfēi",
+        english: "to drink coffee",
+      },
+    ],
+  },
+  {
+    id: "29",
+    character: "看",
+    pinyin: "kàn",
+    english: "to look, to see",
+    level: "HSK 1",
+    strokes: 9,
+    radicals: [
+      {
+        symbol: "手",
+        name: "Hand",
+        meaning: "hand",
+        pinyin: "shǒu",
+        color: "#f97316",
+        position: { top: 25, left: 50 },
+        positionName: "top",
+      },
+      {
+        symbol: "目",
+        name: "Eye",
+        meaning: "eye",
+        pinyin: "mù",
+        color: "#0ea5e9",
+        position: { top: 75, left: 50 },
+        positionName: "bottom",
+      },
+    ],
+    radicalExplanation:
+      "The character 看 (kàn) combines 手 (hand) and 目 (eye), suggesting the action of shading the eyes with the hand to see better.",
+    etymology:
+      "The combination represents putting a hand over the eyes to look into the distance or to see more clearly.",
+    examples: [
+      {
+        chinese: "我看书。",
+        pinyin: "Wǒ kàn shū.",
+        english: "I read books.",
+        note: "看 used as a verb meaning 'to look at' or 'to read'.",
+      },
+      {
+        chinese: "看电影很有趣。",
+        pinyin: "Kàn diànyǐng hěn yǒuqù.",
+        english: "Watching movies is interesting.",
+        note: "看 used to mean 'to watch'.",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "见",
+        pinyin: "jiàn",
+        english: "to see",
+      },
+      {
+        character: "观",
+        pinyin: "guān",
+        english: "to observe",
+      },
+      {
+        character: "视",
+        pinyin: "shì",
+        english: "to view",
+      },
+      {
+        character: "望",
+        pinyin: "wàng",
+        english: "to look at",
+      },
+    ],
+    mnemonic: "Using your hand to shade your eyes while looking at something.",
+    radicalMnemonic: "The hand (手) over the eye (目) helps you see better.",
+    commonWords: [
+      {
+        chinese: "看书",
+        pinyin: "kànshū",
+        english: "to read books",
+      },
+      {
+        chinese: "看见",
+        pinyin: "kànjiàn",
+        english: "to see",
+      },
+      {
+        chinese: "好看",
+        pinyin: "hǎokàn",
+        english: "good-looking",
+      },
+      {
+        chinese: "看病",
+        pinyin: "kànbìng",
+        english: "to see a doctor",
+      },
+    ],
+  },
+  {
+    id: "30",
+    character: "听",
+    pinyin: "tīng",
+    english: "to listen, to hear",
+    level: "HSK 1",
+    strokes: 7,
+    radicals: [
+      {
+        symbol: "口",
+        name: "Mouth",
+        meaning: "mouth, opening",
+        pinyin: "kǒu",
+        color: "#f97316",
+        position: { top: 50, left: 25 },
+        positionName: "left",
+      },
+      {
+        symbol: "斤",
+        name: "Axe",
+        meaning: "axe, catty",
+        pinyin: "jīn",
+        color: "#8b5cf6",
+        position: { top: 50, left: 75 },
+        positionName: "right",
+      },
+    ],
+    radicalExplanation:
+      "The character 听 (tīng) is the simplified form. The mouth radical suggests the action of listening or hearing.",
+    etymology:
+      "In traditional Chinese (聽), it contains the ear radical. The simplified form uses mouth and axe components.",
+    examples: [
+      {
+        chinese: "我听音乐。",
+        pinyin: "Wǒ tīng yīnyuè.",
+        english: "I listen to music.",
+        note: "听 used as a verb meaning 'to listen'.",
+      },
+      {
+        chinese: "听说他很聪明。",
+        pinyin: "Tīngshuō tā hěn cōngming.",
+        english: "I heard that he is very smart.",
+        note: "听 used in the compound word 听说 (to hear that).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "耳",
+        pinyin: "ěr",
+        english: "ear",
+      },
+      {
+        character: "声",
+        pinyin: "shēng",
+        english: "sound",
+      },
+      {
+        character: "音",
+        pinyin: "yīn",
+        english: "sound, tone",
+      },
+      {
+        character: "闻",
+        pinyin: "wén",
+        english: "to hear",
+      },
+    ],
+    mnemonic: "Using your mouth and ears together to listen and understand.",
+    radicalMnemonic: "The mouth (口) is involved in the process of listening and responding.",
+    commonWords: [
+      {
+        chinese: "听说",
+        pinyin: "tīngshuō",
+        english: "to hear that",
+      },
+      {
+        chinese: "听见",
+        pinyin: "tīngjiàn",
+        english: "to hear",
+      },
+      {
+        chinese: "好听",
+        pinyin: "hǎotīng",
+        english: "pleasant to hear",
+      },
+      {
+        chinese: "听话",
+        pinyin: "tīnghuà",
+        english: "obedient",
+      },
+    ],
+  },
+  {
+    id: "31",
+    character: "说",
+    pinyin: "shuō",
+    english: "to speak, to say",
+    level: "HSK 1",
+    strokes: 9,
+    radicals: [
+      {
+        symbol: "讠",
+        name: "Speech",
+        meaning: "speech, words",
+        pinyin: "yán",
+        color: "#22c55e",
+        position: { top: 50, left: 15 },
+        positionName: "left",
+      },
+      {
+        symbol: "兑",
+        name: "Exchange",
+        meaning: "to exchange",
+        pinyin: "duì",
+        color: "#8b5cf6",
+        position: { top: 50, left: 70 },
+        positionName: "right",
+      },
+    ],
+    radicalExplanation:
+      "The character 说 (shuō) combines the speech radical (讠) with 兑 (exchange), indicating the exchange of words or speech.",
+    etymology:
+      "The speech radical indicates this involves talking, while the right component provides phonetic information.",
+    examples: [
+      {
+        chinese: "他说中文。",
+        pinyin: "Tā shuō Zhōngwén.",
+        english: "He speaks Chinese.",
+        note: "说 used as a verb meaning 'to speak'.",
+      },
+      {
+        chinese: "说话要小心。",
+        pinyin: "Shuōhuà yào xiǎoxīn.",
+        english: "Be careful when speaking.",
+        note: "说 used in the compound word 说话 (to speak).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "话",
+        pinyin: "huà",
+        english: "words, speech",
+      },
+      {
+        character: "言",
+        pinyin: "yán",
+        english: "words, speech",
+      },
+      {
+        character: "讲",
+        pinyin: "jiǎng",
+        english: "to speak",
+      },
+      {
+        character: "谈",
+        pinyin: "tán",
+        english: "to talk",
+      },
+    ],
+    mnemonic: "The speech radical shows this is about talking and exchanging words.",
+    radicalMnemonic: "The speech radical (讠) clearly indicates this involves speaking.",
+    commonWords: [
+      {
+        chinese: "说话",
+        pinyin: "shuōhuà",
+        english: "to speak",
+      },
+      {
+        chinese: "听说",
+        pinyin: "tīngshuō",
+        english: "to hear that",
+      },
+      {
+        chinese: "小说",
+        pinyin: "xiǎoshuō",
+        english: "novel",
+      },
+      {
+        chinese: "说明",
+        pinyin: "shuōmíng",
+        english: "to explain",
+      },
+    ],
+  },
+  {
+    id: "32",
+    character: "学",
+    pinyin: "xué",
+    english: "to study, to learn",
+    level: "HSK 1",
+    strokes: 8,
+    radicals: [
+      {
+        symbol: "子",
+        name: "Child",
+        meaning: "child, seed",
+        pinyin: "zǐ",
+        color: "#0ea5e9",
+        position: { top: 75, left: 50 },
+        positionName: "bottom",
+      },
+      {
+        symbol: "学",
+        name: "Learn",
+        meaning: "to learn",
+        pinyin: "xué",
+        color: "#22c55e",
+        position: { top: 35, left: 50 },
+        positionName: "top",
+      },
+    ],
+    radicalExplanation:
+      "The character 学 (xué) shows a child (子) under a roof-like structure, representing a child learning in school.",
+    etymology:
+      "The character depicts a child in a learning environment, emphasizing education and knowledge acquisition.",
+    examples: [
+      {
+        chinese: "我学中文。",
+        pinyin: "Wǒ xué Zhōngwén.",
+        english: "I study Chinese.",
+        note: "学 used as a verb meaning 'to study' or 'to learn'.",
+      },
+      {
+        chinese: "学生很努力。",
+        pinyin: "Xuésheng hěn nǔlì.",
+        english: "Students work very hard.",
+        note: "学 used in the compound word 学生 (student).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "校",
+        pinyin: "xiào",
+        english: "school",
+      },
+      {
+        character: "教",
+        pinyin: "jiāo",
+        english: "to teach",
+      },
+      {
+        character: "习",
+        pinyin: "xí",
+        english: "to practice",
+      },
+      {
+        character: "知",
+        pinyin: "zhī",
+        english: "to know",
+      },
+    ],
+    mnemonic: "A child under a roof learning and studying.",
+    radicalMnemonic: "The child (子) at the bottom represents the learner in the learning process.",
+    commonWords: [
+      {
+        chinese: "学生",
+        pinyin: "xuésheng",
+        english: "student",
+      },
+      {
+        chinese: "学校",
+        pinyin: "xuéxiào",
+        english: "school",
+      },
+      {
+        chinese: "大学",
+        pinyin: "dàxué",
+        english: "university",
+      },
+      {
+        chinese: "学习",
+        pinyin: "xuéxí",
+        english: "to study",
+      },
+    ],
+  },
+  {
+    id: "33",
+    character: "工",
+    pinyin: "gōng",
+    english: "work, worker",
+    level: "HSK 1",
+    strokes: 3,
+    radicals: [
+      {
+        symbol: "工",
+        name: "Work",
+        meaning: "work, labor",
+        pinyin: "gōng",
+        color: "#ef4444",
+        position: { top: 50, left: 50 },
+        positionName: "full",
+      },
+    ],
+    radicalExplanation:
+      "The character 工 (gōng) represents a tool or instrument used for work, symbolizing labor and craftsmanship.",
+    etymology: "Originally depicted a carpenter's square or tool, representing skilled work and craftsmanship.",
+    examples: [
+      {
+        chinese: "他是工人。",
+        pinyin: "Tā shì gōngrén.",
+        english: "He is a worker.",
+        note: "工 used in the compound word 工人 (worker).",
+      },
+      {
+        chinese: "工作很忙。",
+        pinyin: "Gōngzuò hěn máng.",
+        english: "Work is very busy.",
+        note: "工 used in the compound word 工作 (work).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "作",
+        pinyin: "zuò",
+        english: "to do, to make",
+      },
+      {
+        character: "功",
+        pinyin: "gōng",
+        english: "merit, achievement",
+      },
+      {
+        character: "巧",
+        pinyin: "qiǎo",
+        english: "skillful",
+      },
+      {
+        character: "左",
+        pinyin: "zuǒ",
+        english: "left",
+      },
+    ],
+    mnemonic: "The character looks like a tool or instrument used for work.",
+    radicalMnemonic: "Think of it as a carpenter's square, representing skilled work.",
+    commonWords: [
+      {
+        chinese: "工作",
+        pinyin: "gōngzuò",
+        english: "work, job",
+      },
+      {
+        chinese: "工人",
+        pinyin: "gōngrén",
+        english: "worker",
+      },
+      {
+        chinese: "工厂",
+        pinyin: "gōngchǎng",
+        english: "factory",
+      },
+      {
+        chinese: "工程",
+        pinyin: "gōngchéng",
+        english: "engineering",
+      },
+    ],
+  },
+  {
+    id: "34",
+    character: "家",
+    pinyin: "jiā",
+    english: "home, family",
+    level: "HSK 1",
+    strokes: 10,
+    radicals: [
+      {
+        symbol: "宀",
+        name: "Roof",
+        meaning: "roof, house",
+        pinyin: "mián",
+        color: "#8b5cf6",
+        position: { top: 25, left: 50 },
+        positionName: "top",
+      },
+      {
+        symbol: "豕",
+        name: "Pig",
+        meaning: "pig",
+        pinyin: "shǐ",
+        color: "#f97316",
+        position: { top: 70, left: 50 },
+        positionName: "bottom",
+      },
+    ],
+    radicalExplanation:
+      "The character 家 (jiā) combines 宀 (roof) with 豕 (pig), representing a house with livestock, symbolizing home and family.",
+    etymology: "In ancient times, having a pig under one's roof was a sign of prosperity and a settled home life.",
+    examples: [
+      {
+        chinese: "我回家了。",
+        pinyin: "Wǒ huí jiā le.",
+        english: "I went home.",
+        note: "家 used as a noun meaning 'home'.",
+      },
+      {
+        chinese: "家人很重要。",
+        pinyin: "Jiārén hěn zhòngyào.",
+        english: "Family is very important.",
+        note: "家 used in the compound word 家人 (family members).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "房",
+        pinyin: "fáng",
+        english: "house, room",
+      },
+      {
+        character: "屋",
+        pinyin: "wū",
+        english: "house",
+      },
+      {
+        character: "宅",
+        pinyin: "zhái",
+        english: "residence",
+      },
+      {
+        character: "室",
+        pinyin: "shì",
+        english: "room",
+      },
+    ],
+    mnemonic: "A roof over a pig represents a prosperous home with livestock.",
+    radicalMnemonic: "The roof (宀) provides shelter for the family, including their pig (豕).",
+    commonWords: [
+      {
+        chinese: "家人",
+        pinyin: "jiārén",
+        english: "family members",
+      },
+      {
+        chinese: "国家",
+        pinyin: "guójiā",
+        english: "country",
+      },
+      {
+        chinese: "大家",
+        pinyin: "dàjiā",
+        english: "everyone",
+      },
+      {
+        chinese: "在家",
+        pinyin: "zàijiā",
+        english: "at home",
+      },
+    ],
+  },
+  {
+    id: "35",
+    character: "车",
+    pinyin: "chē",
+    english: "car, vehicle",
+    level: "HSK 1",
+    strokes: 4,
+    radicals: [
+      {
+        symbol: "车",
+        name: "Vehicle",
+        meaning: "car, vehicle",
+        pinyin: "chē",
+        color: "#22c55e",
+        position: { top: 50, left: 50 },
+        positionName: "full",
+      },
+    ],
+    radicalExplanation:
+      "The character 车 (chē) is a pictograph representing a cart or vehicle viewed from above, showing the axle and wheels.",
+    etymology:
+      "Originally depicted a cart with wheels and an axle. The simplified form maintains the basic structure of a vehicle.",
+    examples: [
+      {
+        chinese: "我坐车去。",
+        pinyin: "Wǒ zuò chē qù.",
+        english: "I go by car.",
+        note: "车 used as a noun meaning 'car' or 'vehicle'.",
+      },
+      {
+        chinese: "火车很快。",
+        pinyin: "Huǒchē hěn kuài.",
+        english: "The train is very fast.",
+        note: "车 used in the compound word 火车 (train).",
+      },
+    ],
+    relatedCharacters: [
+      {
+        character: "轮",
+        pinyin: "lún",
+        english: "wheel",
+      },
+      {
+        character: "路",
+        pinyin: "lù",
+        english: "road",
+      },
+      {
+        character: "运",
+        pinyin: "yùn",
+        english: "to transport",
+      },
+      {
+        character: "载",
+        pinyin: "zài",
+        english: "to carry",
+      },
+    ],
+    mnemonic: "The character looks like a cart viewed from above with an axle and wheels.",
+    radicalMnemonic: "Think of it as a simple drawing of a cart with wheels on both sides.",
+    commonWords: [
+      {
+        chinese: "汽车",
+        pinyin: "qìchē",
+        english: "car",
+      },
+      {
+        chinese: "火车",
+        pinyin: "huǒchē",
+        english: "train",
+      },
+      {
+        chinese: "自行车",
+        pinyin: "zìxíngchē",
+        english: "bicycle",
+      },
+      {
+        chinese: "开车",
+        pinyin: "kāichē",
+        english: "to drive",
+      },
+    ],
+  },
 ]
 
 // Example of how to create a monthly character set
